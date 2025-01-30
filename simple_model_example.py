@@ -8,7 +8,7 @@ model = Model.get(
     temperature=0.1  # optional, defaults to 0.1
 )
 
-# Prepare conversation history
+# Prepare conversation history 
 messages = [
     {"role": "system", "content": "You are a helpful AI assistant."},
     {"role": "user", "content": "Your prompt here"}
