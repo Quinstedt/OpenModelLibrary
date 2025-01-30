@@ -3,7 +3,7 @@
 
 Log in to hugging-face 
 
-``` mistral huggingface-cli ```
+``` <apptainer path or alias> huggingface-cli ```
 
 Generate a token in hugging-face and use it login. Make sure to be in the llm-readability folder before executing the command.
 
