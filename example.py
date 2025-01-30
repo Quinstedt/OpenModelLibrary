@@ -24,7 +24,7 @@ temperature = args.temperature  # Default 0.7
 #############################################
 
 # Define a default path
-default_model = "/mimer/NOBACKUP/groups/naiss2024-22-453/.cache/models--mistralai--Mistral-Small-Instruct-2409/snapshots/a5b29a334a0991ea7bb2d78ef9c7ca14ac9f8f04" 
+default_model = "../.cache/models--mistralai--Mistral-Small-Instruct-2409/snapshots/a5b29a334a0991ea7bb2d78ef9c7ca14ac9f8f04" 
 
 if model == "mistral":
     model_path = os.getenv("MISTRAL")
