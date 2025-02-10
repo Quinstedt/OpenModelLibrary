@@ -1,0 +1,10 @@
+Bootstrap: localimage
+#From: /apps/containers/Conda/miniconda-latest.sif
+From: /apps/containers/Conda/miniconda-23.10.0-1.sif
+
+%files 
+    /cephyr/NOBACKUP/groups/llm-readability/setup/req.txt
+
+%post
+    /opt/conda/bin/conda install pip
+    /opt/conda/bin/pip install -r /cephyr/NOBACKUP/groups/llm-readability/setup/req.txt
